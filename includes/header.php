@@ -378,7 +378,7 @@ session_unset();
         <li><a href="cursos.php">Cursos</a></li>
         <li><a href="cortes.php">Cortes</a></li>
        <?php
-            session_start();
+          
         if(isset($_SESSION['mensagem'])) { ?>
               <li><a href="faleConosco.php">Fale Conosco</a></li>
               <li><a href="trabalheConosco.php">Trabalhe Conosco</a></li>
